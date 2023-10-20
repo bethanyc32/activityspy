@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.i("ActivitySpy", "onCreate event fired")
+        Log.i("ActivitySpy", "onCreate event fired with savedInstanceState parameter")
     }
 
     override fun onStart() {
